@@ -16,6 +16,12 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "系统管理",
+        "pages": [
+          "chi-shua"
+        ]
       }
     ],
     "global": {
