@@ -9,21 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "系统管理",
-        "pages": [
-          "chi-shua"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -37,7 +22,32 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "顶部导航1",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "导航2",
+        "pages": [
+          {
+            "group": "系统管理",
+            "pages": [
+              "chi-shua"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
